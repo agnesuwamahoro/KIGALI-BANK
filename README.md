@@ -18,5 +18,3 @@ jquery
 this project is protected under terms of MIT license
 
 ## copyright 2018
-
-link to live site on GitHub page https://github.com/agnesuwamahoro/QUIZ-BOARD
