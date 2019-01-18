@@ -7,14 +7,15 @@ This is a type of project that i have created called kigali bank.
 ## Author
  Uwamahoro agnes
 
-## Technology used .HTML .CSS .Bootstrap .JQuery
+## Technology used 
 js
 bootstrap
 css
 html
 jquery
 
-## license this project is protected under terms of MIT license
+## license  
+this project is protected under terms of MIT license
 
 ## copyright 2018
 
