@@ -42,9 +42,9 @@ $(document).ready(function()
 
     newAccount.deposit(newBalance);
 
-    $(".balance").text(newAccount.money);
+    $(".balance").text(newAccount.money);}
  
-  });
+  );
 
 
   $("form#withdraw").submit(function(event) 
