@@ -1,8 +1,8 @@
 var BankAccount = {
     money: 0,
     name:"",
-    withdraw: function(amount) {
-        this.money = this.money - amount;
+    withdraw: function(amount) 
+        {this.money = this.money - amount;
         this.name = this.name;
     },
     deposit: function(amount) 
