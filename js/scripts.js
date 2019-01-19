@@ -3,8 +3,8 @@ var BankAccount = {
     name:"",
     withdraw: function(amount) 
         {this.money = this.money - amount;
-        this.name = this.name;
-    },
+        this.name = this.name;}
+    ,
     deposit: function(amount) 
         {
           this.money = this.money + amount;
