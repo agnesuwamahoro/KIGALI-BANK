@@ -586,8 +586,8 @@ th {
   content: "\e097";
 }
 .glyphicon-exclamation-sign:before {
-  content: "\e101";
-}
+  content: "\e101";}
+
 .glyphicon-gift:before {
   content: "\e102";
 }
