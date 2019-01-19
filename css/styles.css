@@ -5,8 +5,8 @@
     
     box-sizing: content-box;
 }
-.form-group{ 
-    padding: 10px;
+.form-group
+    {padding: 10px;
 
 }
 #name,#initial{
