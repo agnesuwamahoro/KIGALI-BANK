@@ -8,10 +8,10 @@ var BankAccount = {
     }
 };
 
-$(document).ready(function() {
+$(document).ready(function() 
 
 
-  var newAccount = Object.create(BankAccount);
+ { var newAccount = Object.create(BankAccount);
 
   $("form#newBk").submit(function(event) {
     event.preventDefault();
