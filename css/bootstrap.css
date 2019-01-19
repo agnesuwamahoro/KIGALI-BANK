@@ -609,8 +609,8 @@ th {
 .glyphicon-plane:before {
   content: "\e108";
 }
-.glyphicon-calendar:before {
-  content: "\e109";
+.glyphicon-calendar:before 
+  {content: "\e109";
 }
 .glyphicon-random:before {
   content: "\e110";
