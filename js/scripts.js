@@ -42,8 +42,8 @@ $(document).ready(function()
   });
 
 
-  $("form#withdraw").submit(function(event) {
-    event.preventDefault();
+  $("form#withdraw").submit(function(event) 
+    {event.preventDefault();
 
     var newBalance = parseInt($("input#withdraw").val());
 
