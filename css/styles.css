@@ -2,7 +2,7 @@
     background-color: grey;
     background-size: cover;
     margin:10px;
-    padding:10px;
+    
     box-sizing: content-box;
 }
 .form-group{ 
@@ -12,7 +12,7 @@
 #name,#initial{
     margin:10px;
 }
+
 .subm{
     padding-right: 30px;
 }
-
