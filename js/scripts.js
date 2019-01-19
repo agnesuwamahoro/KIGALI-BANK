@@ -1,10 +1,10 @@
 var BankAccount = {
-    balance: 0,
+    money: 0,
     withdraw: function(amount) {
-        this.balance = this.balance - amount;
+        this.money = this.money - amount;
     },
     deposit: function(amount) {
-        this.balance = this.balance + amount;
+        this.money = this.money + amount;
     }
 };
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
 
   var newAccount = Object.create(BankAccount);
 
-  $("form#create").submit(function(event) {
+  $("form#newBk").submit(function(event) {
     event.preventDefault();
 
     var inputtedName = $("input#name").val();
@@ -23,11 +23,11 @@ $(document).ready(function() {
     newAccount.deposit(inputtedBalance);
 
 
-    $(".balance").text(newAccount.balance);
+    $(".balance").text(newAccount.money);
   });
 
 
-  $("form#manage").submit(function(event) {
+  $("form#depo").submit(function(event) {
 
     event.preventDefault();
 
@@ -37,8 +37,8 @@ $(document).ready(function() {
 
     newAccount.deposit(newBalance);
 
-    $(".balance").text(newAccount.balance);
-  // $("#manage").unbind('submit');
+    $(".balance").text(newAccount.money);
+ 
   });
 
 
@@ -50,7 +50,7 @@ $(document).ready(function() {
 
     newAccount.withdraw(newBalance);
 
-    $(".balance").text(newAccount.balance);
+    $(".balance").text(newAccount.money);
 
   });
 });
