@@ -591,8 +591,8 @@ th {
 .glyphicon-gift:before {
   content: "\e102";
 }
-.glyphicon-leaf:before {
-  content: "\e103";
+.glyphicon-leaf:before 
+  {content: "\e103";
 }
 .glyphicon-fire:before {
   content: "\e104";
